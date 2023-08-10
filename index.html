@@ -973,7 +973,7 @@
           <p class="fontOwn">Join Our Team, We Need you </p>
         </div>
         <div class="container">
-          <div class="row icon-box zoomCard">
+          <div class="row icon-box">
             <div class="col-12 col-md" style="padding-left: 5%;">
               <i class="bi bi-cloud-upload rupeeIconCircle"></i>
               <h4 class="paddingLeft30">Are you looking for <span class="txtColor">Job</span>?
@@ -982,13 +982,13 @@
             </div>
             <div class="col-8 col-md-4" style="padding-right: 8%;">
               <span class="right paddingRight12 paddingTop20">
-                <button type="submit" class="submitBtn ">Upload Resume</button>
+                <button type="submit" class="submitBtn " data-toggle="modal" data-target="#submitModalCenter">Upload Resume</button>
               </span>
             </div>
           </div>
         </div>
         <div class="container">
-          <div class="row icon-box zoomCard">
+          <div class="row icon-box">
             <div class="col-12 col-md" style="padding-left: 5%;">
               <i class="bi bi-currency-rupee rupeeIconCircle"></i>
               <h4 class="paddingLeft30">Do you want to <span class="txtColor">Refer</span> someone?
@@ -997,13 +997,13 @@
             </div>
             <div class="col-8 col-md-4" style="padding-right: 8%;">
               <span class="right paddingRight12 paddingTop20">
-                <button type="submit" class="submitBtn ">Refer A Friend</button>
+                <button type="submit" class="submitBtn " data-toggle="modal" data-target="#submitModalCenter">Refer A Friend</button>
               </span>
             </div>
           </div>
         </div>
         <div class="container">
-          <div class="row icon-box zoomCard">
+          <div class="row icon-box">
             <div class="col-12 col-md" style="padding-left: 5%;">
               <i class="bi bi-cloud-download rupeeIconCircle"></i>
               <h4 class="paddingLeft30">Are you looking for <span class="txtColor">Right Talent</span>?
@@ -1012,13 +1012,38 @@
             </div>
             <div class="col-8 col-md-4" style="padding-right: 8%;">
               <span class="right paddingRight12 paddingTop20">
-                <button type="submit" class="submitBtn ">Post Your Job</button>
+                <button type="submit" class="submitBtn " data-toggle="modal" data-target="#submitModalCenter">Post Your Job</button>
+                
               </span>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End Hiring Section -->
+    </section>
+
+<!-- Modal -->
+<div class="modal fade" id="submitModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Thank You!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/coming.jpg" class="img-fluid image2"
+        style="width: 100%;">
+      </div>
+      <!-- <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div> -->
+    </div>
+  </div>
+</div>
+    
+    <!-- End Hiring Section -->
     <!-- ======= We are Work Section ======= -->
     <!-- End Team Section> -->
 
@@ -1169,7 +1194,7 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div> -->
-                        <div class="text-center paddingTop23"><button type="submit" class="submitBtn ">Hire us</button>
+                        <div class="text-center paddingTop23"><button type="submit" class="submitBtn" data-toggle="modal" data-target="#submitModalCenter">Hire us</button>
                         </div>
                     </form>
                   </div>
