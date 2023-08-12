@@ -1,8 +1,8 @@
 // List of sentences
 var _CONTENT = [ 
-	"HR Recruitment & Outsourcing", 
+	"Recruitment, Staffing & Outsourcing", 
 	"Web & App Development", 
-	"Training & Certifications"
+	"Training & Certification"
 ];
 
 // Current sentence being processed
@@ -34,7 +34,7 @@ function Type() {
 
 		clearInterval(_INTERVAL_VAL);
 		setTimeout(function() {
-			_INTERVAL_VAL = setInterval(Delete, 50);
+			_INTERVAL_VAL = setInterval(Delete, 60);
 		}, 1000);
 	}
 }
