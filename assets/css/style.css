@@ -7,6 +7,13 @@
   --bs-breakpoint-xxl: 1450px !important;
 }
 
+.container-fluid {
+  margin-left: 5% !important;
+  width: 90% !important;
+}
+.container-fluid1 {
+  margin-left: 0% !important;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -16,7 +23,7 @@ body {
 }
 
 a {
-  color: #1bbd36;
+  color: #1967d2;
   text-decoration: none;
   letter-spacing: 1px;
 }
@@ -45,7 +52,7 @@ h6 {
   right: 1rem;
   bottom: 1rem;
   z-index: 996;
-  background: #1bbd36;
+  background: #1967d2;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 4px;
@@ -88,7 +95,7 @@ h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #1bbd36;
+  color: #1967d2;
 }
 
 #topbar .contact-info i a,
@@ -103,7 +110,7 @@ h6 {
 }
 
 #topbar .contact-info i a:hover {
-  color: #1bbd36;
+  color: #1967d2;
 }
 
 #topbar .social-links a {
@@ -116,7 +123,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1bbd36;
+  color: #1967d2;
 }
 
 #topbar .social-links a:first-child {
@@ -155,7 +162,7 @@ h6 {
 
 #header .logo h1 a span,
 #header .logo h1 a:hover span {
-  color: #1bbd36;
+  color: #1967d2;
 }
 
 #header .logo img {
@@ -330,7 +337,7 @@ body {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #1bbd36;
+  color: #1967d2;
 }
 
 .navbar-mobile a:hover{
@@ -434,7 +441,7 @@ body {
   width: 80%;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #1bbd36;
+  color: #fff;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -489,7 +496,7 @@ body {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background-color: #1bbd36;
+  background-color: #1967d2;
 }
 
 #hero .btn-get-started {
@@ -504,7 +511,7 @@ body {
   line-height: 1;
   margin: 0.8rem;
   color: #fff !important;
-  background: #1bbd36;
+  background: #1967d2;
   animation-delay: 0.8s;
 }
 
@@ -533,7 +540,7 @@ body {
     margin-left: 13%;
     font-weight: 400;
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   body {
     font-family: 'Poppins' !important;
@@ -567,7 +574,7 @@ body {
     margin-left: 13%;
     font-weight: 400;
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   body {
     font-family: 'Poppins' !important;
@@ -594,8 +601,8 @@ section {
   text-align: center;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
-  padding-top: 3.2rem;
-  padding-bottom: 1.9rem;
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
   position: relative;
 }
 
@@ -605,7 +612,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 1.4rem;
   padding-bottom: 0;
-  color: #1bbd36;
+  color: #1967d2;
   position: relative;
   z-index: 2;
 }
@@ -646,7 +653,7 @@ section {
     margin-left: 13%;
     font-weight: 400;
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   body {
     font-family: 'Poppins' !important;
@@ -686,7 +693,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 1.4rem;
-  color: #1bbd36;
+  color: #1967d2;
 }
 
 .about .content p:last-child {
@@ -709,7 +716,7 @@ section {
 .about-list .icon-box i {
   font-size: 3rem;
   float: left;
-  color: #1bbd36;
+  color: #1967d2;
 }
 
 .about-list .icon-box p {
@@ -759,7 +766,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #1bbd36;
+  color: #1967d2;
 }
 
 .counts .counters p {
@@ -784,7 +791,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #1bbd36;
+  color: #1967d2;
   font-size: 2rem;
   line-height: 0;
   /* padding: 10px; */
@@ -799,7 +806,7 @@ section {
 
 .services1 .icon-box i {
   float: left;
-  color: #1bbd36;
+  color: #1967d2;
   font-size: 60px;
   line-height: 0;
 }
@@ -813,7 +820,7 @@ section {
   margin-left: 10%;
   font-weight: 400;
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 1rem
 }
 
 .services .icon-box h4 a {
@@ -822,7 +829,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #1bbd36;
+  color: #1967d2;
 }
 
 
@@ -932,7 +939,7 @@ padding-bottom: 0px;
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #1bbd36;
+  background: #1967d2;
   color: #fff;
 }
 
@@ -985,7 +992,7 @@ padding-bottom: 0px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info .portfolio-links a {
-  color: #1bbd36;
+  color: #1967d2;
   margin: 0 4px;
   background-color: #fff;
   border-radius: 50px;
@@ -1003,7 +1010,7 @@ padding-bottom: 0px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info .portfolio-links a:hover {
-  background: #1bbd36;
+  background: #1967d2;
   color: #fff;
 }
 
@@ -1041,11 +1048,11 @@ padding-bottom: 0px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1bbd36;
+  border: 1px solid #1967d2;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1bbd36;
+  background-color: #1967d2;
 }
 
 .portfolio-details .portfolio-info {
@@ -1173,7 +1180,7 @@ padding-bottom: 0px;
 }
 
 .team .member .social a:hover {
-  background: #1bbd36;
+  background: #1967d2;
 }
 
 .team .member .social a+a {
@@ -1276,7 +1283,7 @@ padding-bottom: 0px;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1bbd36;
+  background-color: #1967d2;
 }
 
 @media (min-width: 1024px) {
@@ -1293,7 +1300,7 @@ padding-bottom: 0px;
   .services .icon-box h4 {
     font-weight: 400;
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   body {
     font-family: 'Poppins' !important;
@@ -1315,7 +1322,7 @@ padding-bottom: 0px;
 
 .contact .info i {
   font-size: 24px;
-  color: #1bbd36;
+  color: #1967d2;
   float: left;
   width: 48px;
   height: 48px;
@@ -1343,7 +1350,7 @@ padding-bottom: 0px;
 }
 
 .contact .info:hover i {
-  background: #1bbd36;
+  background: #1967d2;
   color: #fff;
 }
 
@@ -1373,7 +1380,7 @@ padding-bottom: 0px;
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #1967d2;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1393,7 +1400,7 @@ padding-bottom: 0px;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #1967d2;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1414,7 +1421,7 @@ padding-bottom: 0px;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #1bbd36;  
+  background: #1967d2; 
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1490,7 +1497,7 @@ padding-bottom: 0px;
     margin-left: 12%;
     font-weight: 400;
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   body {
     font-family: 'Poppins' !important;
@@ -1509,8 +1516,8 @@ padding-bottom: 0px;
 }
 
 #footer .footer-top {
-  background: #1bbd36;;
-  border-bottom: 1px solid #1bbd36;;
+  background: #1967d2;
+  border-bottom: 1px solid #1967d2;
   padding: 10px 0 10px 0;
 }
 
@@ -1551,7 +1558,7 @@ padding-bottom: 0px;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1bbd36;
+  background: #1967d2;
   color: #fff !important;
   text-decoration: none;
 }
@@ -1625,7 +1632,7 @@ padding-bottom: 0px;
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1bbd36;
+  background: #1967d2;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1670,7 +1677,7 @@ padding-bottom: 0px;
 }
 .borderBottom{
   padding: 2%;
-  border-bottom: 2px solid #1bbd36;
+  border-bottom: 2px solid #1967d2;
 }
 .paddingTop1{
   padding-top: 1% !important;
@@ -1742,7 +1749,7 @@ padding-bottom: 0px;
 }
 .headerItalic {
   font-size: 25px;
-  color: #1bbd36 ;
+  color: #1967d2;
   display: inline-block !important;
   margin-top: -0.28em !important;
   text-transform: capitalize !important;
@@ -1834,7 +1841,7 @@ h1 span .text {
     animation: blink 0.100s infinite;
   }
   .giriColor{
-    color: #1bbd36 !important;
+    color: #1967d2 !important;
   }
   .#1bbd36 {
     color: #4480ff;
@@ -1864,7 +1871,7 @@ p.info {
 }
   a {
     text-decoration: none;
-    color: #1bbd36 !important;
+    color: #1967d2 !important;
   }
 
 
@@ -1891,7 +1898,7 @@ p.info {
     margin-left: 13%;
     font-weight: 400;
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   body {
     font-family: 'Poppins' !important;
@@ -1909,7 +1916,7 @@ p.info {
     margin-left: 13%;
     font-weight: 400;
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   body {
     font-family: 'Poppins' !important;
@@ -2013,7 +2020,7 @@ p.info {
 }
 /************border realted*************/
 .borderRight{
-  border-right: 1px solid #1bbd36;
+  border-right: 1px solid #1967d2;
   padding: 10px !important;
 }
 
@@ -2044,13 +2051,13 @@ p.info {
 .iconTxt{
   font-size: 48px;
     /* float: left; */
-    color: #1bbd36;
+    color: #1967d2;
 }
 .txtColor{
-  color: #1bbd36;
+  color: #1967d2;
 }
 .txtColorFix{
-  color: #1bbd36 !important;
+  color: #1967d2 !important;
   letter-spacing: 1px !important;
   font-size: 1.2rem !important;
 }
@@ -2064,8 +2071,11 @@ p.info {
   padding-top: 25rem !important;
   padding-bottom: 25rem !important;
 }
+.noneBackground{
+  background: none !important;
+}
 .about h3 {
-  color: #1bbd36 !important;
+  color: #1967d2 !important;
   letter-spacing: 2px;
 }
 .txtBox{
@@ -2074,7 +2084,7 @@ p.info {
   font-size: 14px;
 }
 .submitBtn{
-  background: #1bbd36;
+  background: #1967d2;
   border: 0;
   padding: 10px 15px;
   color: #fff;
@@ -2085,7 +2095,7 @@ p.info {
 }
 .iconSize{
     text-align: center;
-    color: #1bbd36;
+    color: #1967d2;
     font-size: 50px;
     line-height: 0;
 }
@@ -2121,7 +2131,7 @@ p.info {
     top: 15px;
     position: absolute;
     font-size: 20px;
-    color: #1bbd36;
+    color: #1967d2;
 }
 .checkIcon{
   font-size: 1rem;
@@ -2141,24 +2151,24 @@ p.info {
   color: #354144;
 }
 .rupeeIconCircle{
-    border: 1px solid #1bbd36;
+    border: 1px solid #1967d2;
     padding: 15px;
     margin: 0px;
     border-radius: 50%;
 }
 .rupeeIconCircle:hover{
-  background-color: #1bbd36;
+  background-color: #1967d2;
   color: #fff !important;
 }
 .rupeeIconCircle2{
-  border: 1px solid #1bbd36;
+  border: 1px solid #1967d2;
   padding: 15px;
   margin: 0px;
   border-radius: 5%;
   font-size: 4rem;
 }
 .rupeeIconCircle2:hover{
-background-color: #1bbd36;
+background-color: #1967d2;
 color: #fff !important;
 }
 .row{
@@ -2178,10 +2188,10 @@ color: #fff !important;
 }
 
 .borderRight{
-  border-right: 1px solid #1bbd36;
+  border-right: 1px solid #1967d2;
 }
 .borderFull{
-  border: 1px solid #1bbd36;
+  border: 1px solid #1967d2;
 }
 .ownBorder{
   background-color: #fff;
@@ -2248,7 +2258,7 @@ font-weight: bold;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #1bbd36;
+	background: #1967d2;
 	color: #ffffff;
 	font-family: 'Quicksand', sans-serif;
 	display: flex;
@@ -2316,13 +2326,13 @@ font-weight: bold;
 
 #mytab .active {
   border-radius: 0;
-  background-color:  #1bbd36;
+  background-color:  #1967d2;
   color: #FFF !important;
   /* border-bottom: 2px solid #1bbd36 !important; */
 }
 
 #mytab .nav-tabs > a .active {
-  border-bottom: 2px solid #1bbd36 !important;
+  border-bottom: 2px solid #1967d2 !important;
 }
 
 #mytab .tab-pane {
@@ -2343,21 +2353,21 @@ font-weight: bold;
 
 /*----Bootstrap class override-----*/
 .btn-outline-primary{
-  border-color: #1bbd36;
-  color: #1bbd36;
+  border-color: #1967d2;
+  color: #1967d2;
 }
 .btn-outline-primary:hover{
   border-color: #fff;
   color:  #fff;
-  background-color: #1bbd36;
+  background-color: #1967d2;
 }
 .feature-box-1:hover  .btn-outline-primary { 
   border-color: #fff;
   color:  #fff;
-  background-color: #1bbd36;
+  background-color: #1967d2;
 }
 .borderBottom{
-  border-bottom: solid #1bbd36;
+  border-bottom: solid #1967d2;
 }
 /*----Bootstrap class override-----*/
 
@@ -2400,7 +2410,7 @@ font-weight: bold;
   line-height: 70px;
 }
 .feature-box-1 h5 {
-  color: #1bbd36;
+  color: #1967d2;
   font-weight: 500;
   text-align: center;
   font-family: 'Poppins' !important;
@@ -2418,7 +2428,7 @@ font-weight: bold;
   right: 0;
   border-radius: 10px;
   width: 0;
-  background: #1bbd36;
+  background: #1967d2;
   z-index: -1;
   /* -moz-transition: ease all 0.35s;
   -o-transition: ease all 0.35s;
@@ -2492,7 +2502,7 @@ font-weight: bold;
   font-style: italic;
 }
 .bottomBorder1{
-  border-bottom: solid #1bbd36 1px;
+  border-bottom: solid #1967d2; 1px;
   padding-bottom: 10px;
 }
 
@@ -2518,11 +2528,11 @@ font-weight: bold;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1bbd36;
+  border: 1px solid #1967d2;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1bbd36;
+  background-color: #1967d2;
 }
 
 
@@ -2540,7 +2550,7 @@ font-weight: bold;
 #text {
 	display: inline-block;
 	vertical-align: middle;
-	color: #1bbd36;
+	color: #1967d2;
 	letter-spacing: 1px;
   font-size: 1.4rem !important;
   /* line-height: 1.2; */
@@ -2552,7 +2562,7 @@ font-weight: bold;
 	vertical-align: middle;
 	width: 3px;
 	height: 30px;
-	background-color: #1bbd36;
+	background-color: #1967d2;
 	animation: blink .75s step-end infinite;
 }
 
