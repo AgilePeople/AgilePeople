@@ -32,6 +32,8 @@
     }
   }
 
+  /** hide mobile logo txt on load **/
+  $("#logoTxt").hide();
   /**
    * Easy on scroll event listener 
    */
@@ -119,6 +121,7 @@
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
+    $("#logoTxt").toggle();
   })
 
   /**
