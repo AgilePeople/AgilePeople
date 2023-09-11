@@ -552,8 +552,7 @@ body {
   }
 
   .services .icon-box h4 {
-    margin-left: 13%;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 1rem;
     font-size: 1rem;
   }
@@ -586,8 +585,7 @@ body {
     width: 80%;
   }
   .services .icon-box h4 {
-    margin-left: 13%;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 1rem;
     font-size: 1rem;
   }
@@ -665,8 +663,7 @@ section {
     width: 80%;
   }
   .services .icon-box h4 {
-    margin-left: 13%;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 1rem;
     font-size: 1rem;
   }
@@ -751,7 +748,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: url("../img/banner.jpg") center center no-repeat;
+  /* background: url("../img/banner.jpg") center center no-repeat; */
   background-size: cover;
   padding: 80px 0 60px 0;
   position: relative;
@@ -760,7 +757,7 @@ section {
 .counts::before {
   content: "";
   position: absolute;
-  background: rgba(0, 0, 0, 0.7);
+  background: #1967d2;
   left: 0;
   right: 0;
   top: 0;
@@ -785,13 +782,14 @@ section {
 }
 
 .counts .counters p {
-  padding: 0;
+  padding: 10px;
   margin: 0 0 1.2rem 0;
   /* font-family: "Raleway", sans-serif; */
   font-family: 'Poppins';
-  font-size: 13px;
+  font-size: 14px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 400;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -807,7 +805,7 @@ section {
 .services .icon-box i {
   float: left;
   color: #1967d2;
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 0;
   /* padding: 10px; */
 }
@@ -891,15 +889,24 @@ section {
     border-bottom: 2px solid #1967d2;
 }
 
+.cardArea{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0 !important;
+  margin-right: 5% !important;
+  width: 100% !important;
+}
+.marginLeftBtn{
+  margin-left: 10%;
+}
 
 /*--------------------------------------------------------------
 # service 2
 --------------------------------------------------------------*/
 
 .service-1 {
-  
-  color: #8d97ad;
   font-weight: 300;
+  margin-top: 2rem;
 }
 
 .service-1 h1,
@@ -939,7 +946,7 @@ section {
 }
 .serviceImgIcon{
   height: auto;
-  width: 50%;
+  width: 40%;
 }
 .service-3 {
   font-family: "Montserrat", sans-serif;
@@ -992,6 +999,60 @@ section {
 }
 
 
+
+.service-7 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.service-7 h1, .service-7 h2, .service-7 h3, .service-7 h4, .service-7 h5, .service-7 h6 {
+  color: #3e4555;
+}
+
+.service-7 .font-weight-medium {
+	font-weight: 500;
+}
+
+.service-7 a {
+	text-decoration: none;
+}
+
+.service-7 .linking {
+	color: #3e4555;
+}
+
+.service-7 .linking:hover {
+	color: #316ce8;
+}
+
+.service-7 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.service-7 .btn-info-gradiant {
+	  background: #188ef4;
+    background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+    background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+
+.service-7 .btn-info-gradiant:hover {
+	  background: #316ce8;
+    background: -webkit-linear-gradient(legacy-direction(to right), #316ce8 0%, #188ef4 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#316ce8), to(#188ef4));
+    background: -webkit-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: -o-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: linear-gradient(to right, #316ce8 0%, #188ef4 100%);
+}
+
+.service-7 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1056,6 +1117,22 @@ padding-bottom: 0px;
 .serviceSectionHeight{
   padding-top: 5% !important; 
   height: 8rem;
+}
+.sectionPaddingTopBottom{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.paddingTop{
+  padding-top: 4rem;
+}
+.paddingBottom{
+  padding-bottom: 4rem;
+}
+.paddingLeft{
+  padding-left: 0;
+}
+.paddingRight{
+  padding-right: 0;
 }
 /*--------------------------------------------------------------
 # Portfolio
@@ -1251,8 +1328,9 @@ padding-bottom: 0px;
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 35px;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .team .member .pic {
@@ -1448,7 +1526,7 @@ padding-bottom: 0px;
   }
   
   .services .icon-box h4 {
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 1rem;
     font-size: 1rem;
   }
@@ -1650,11 +1728,12 @@ padding-bottom: 0px;
   }
 
   .services .icon-box h4 {
-    margin-left: 12%;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 1rem;
     font-size: 1rem;
   }
+
+ 
   body {
     font-family: 'Poppins' !important;
     color: black;
@@ -2061,8 +2140,7 @@ p.info {
     width: 80%;
   }
   .services .icon-box h4 {
-    margin-left: 13%;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 1rem;
     font-size: 1rem;
   }
@@ -2078,6 +2156,7 @@ p.info {
 .services .icon-box p {
   margin-left: 15%;
 }
+
   body {
     font-family: 'Poppins' !important;
     color: black;
@@ -2091,11 +2170,11 @@ p.info {
     width: 80%;
   }
   .services .icon-box h4 {
-    margin-left: 13%;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 1rem;
     font-size: 1rem;
   }
+
   body {
     font-family: 'Poppins' !important;
     color: black;
@@ -2228,8 +2307,7 @@ p.info {
 /************icon realted*************/
 .iconTxt{
   font-size: 48px;
-    /* float: left; */
-    color: #1967d2;
+  color: #fff;
 }
 .txtColor{
   color: #1967d2;
