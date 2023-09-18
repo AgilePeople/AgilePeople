@@ -620,8 +620,8 @@ section {
   text-align: center;
   /* padding-left: 1.8rem;
   padding-right: 1.8rem; */
-  padding-top: 2.5rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   position: relative;
 }
 
@@ -800,8 +800,6 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  margin-bottom: 20px;
-  padding: 25px;
   border-radius: 6px;
   background: #fff;
 }
@@ -1118,7 +1116,7 @@ padding-bottom: 0px;
   margin-right: 5%;
 }
 .buttonWidth{
-  width: 150px;
+  width: 200px;
   display: inline-block;
 }
 .text-center
@@ -1168,6 +1166,7 @@ padding-bottom: 0px;
   box-sizing: border-box;
   margin-top: 3rem;
   border-radius: 4px;
+  padding: 1rem;
 }
 .width100{
   width: 100% !important;
@@ -1773,7 +1772,7 @@ padding-bottom: 0px;
   padding: 5rem 1rem 0 1rem;
 }
 .marginBottomContact{
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
 }
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -3206,13 +3205,12 @@ Courses
 }
 
 .badge {
-  padding: 5px 8px;
+  padding: 5px 5px;
   border-radius: 3px;
   letter-spacing: 0.5px;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
 }
-
-
-
-
+.row {
+   --bs-gutter-x: 0rem !important;
+}
